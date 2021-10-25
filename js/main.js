@@ -16,7 +16,9 @@ $(".slider-two")
 .slick({
     prevArrow: ".site-slider-two .prev",
     nextArrow: ".site-slider-two .next",
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 10000,
+    
 });
